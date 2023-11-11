@@ -1,0 +1,121 @@
+*{
+  /*Reseteo de estilos*/
+  box-sizing: border-box;
+  margin: 0%;
+  font-family: 'roboto', sans-serif;
+  font-weight: 400;
+  outline: none;
+}
+ 
+h1 h2 {
+  font-size: 24pt;
+  font-weight: 800;
+}
+body{
+  background:radial-gradient( #3C4445, #B0C4B1);
+  color: #F7E1D7;
+}
+
+main section h2{
+  color: #D8AB8E;
+}
+nav button{
+  background-color: transparent;
+  color: #F7E1D7;
+}
+main section button{
+  background-color: transparent;
+  color: #F7E1D7;
+}
+form button{
+  color: #000000;
+  background-color: #D8AB8E;
+}
+
+
+button{
+  border-radius: 2rem;
+  border: solid 2px;
+  background-color: transparent;
+  padding: 1rem;
+  transition: 1s ease-in
+}
+
+button:hover {
+
+}
+
+
+
+.jumbotron {
+  
+  text-align: center;
+  padding: 40pt;
+}
+.jumbotron h1 {
+  margin-bottom: 8pt;
+}
+
+.jumbotron p{
+  margin-bottom: 16pt;
+}
+
+section {
+  perspective: 1000px
+}
+.box1 {
+transition: 1s ease;
+}
+.box:hover {
+  transform: rotateX('60')
+}
+
+
+.header {
+   position: sticky;
+   top: 0%;
+   left: 0%;
+   width: 100%;
+   background-color: #B0C4B1;
+   z-index: 10000; /* sirve para sobreponer ante todo*/
+
+}
+
+
+section{
+  padding: 12pt 30px;
+}
+
+div {
+  padding: 12pt 30px;
+}
+
+  /*
+  -Niveles de Especificidad
+
+1.- !important
+2.- id
+3.- class
+4.- tag
+5.- *
+
+  -Medidas 
+  FIJAS
+  *pixeles
+  *EM y REM
+  RESPONSIVAS
+  *porcentaje %
+  *Viewport Width y Height
+  COLOR
+  * Exadecimal
+  * RGB
+  * HSL
+  
+  -Otros
+text-align: justify
+color: #ee8181c3;
+font-size: 1.7rem;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 900;
+
+  */
