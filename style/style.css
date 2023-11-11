@@ -1,0 +1,63 @@
+*{
+  /*Reseteo de estilos*/
+  box-sizing: border-box;
+  padding: 0%;
+  border: 0%;
+  margin: 0%;
+  font-size: 1rem;
+  font-family: 'roboto', sans-serif;
+  font-weight: 400;
+}
+
+
+
+body{
+    background:radial-gradient( #3C4445, #B0C4B1);
+    color: #F7E1D7;
+  }
+  
+ main section h2{
+    color: #D8AB8E;
+  }
+  nav button{
+    background-color: transparent;
+    color: #F7E1D7;
+  }
+  main section button{
+    background-color: transparent;
+    color: #F7E1D7;
+  }
+  form button{
+    color: #000000;
+    background-color: #D8AB8E;
+  }
+  
+  /*
+  -Niveles de Especificidad
+
+1.- !important
+2.- id
+3.- class
+4.- tag
+5.- *
+
+  -Medidas 
+  FIJAS
+  *pixeles
+  *EM y REM
+  RESPONSIVAS
+  *porcentaje %
+  *Viewport Width y Height
+  COLOR
+  * Exadecimal
+  * RGB
+  * HSL
+  
+  -Otros
+text-align: justify
+color: #ee8181c3;
+font-size: 1.7rem;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 900;
+
+  */
