@@ -32,6 +32,17 @@ form button{
   background-color: #D8AB8E;
 }
 
+.header .navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 30px;
+  align-items: center;
+}
+
+.navbar .list {
+  align-items: center;
+}
+
 
 button{
   border-radius: 2rem;
@@ -39,10 +50,6 @@ button{
   background-color: transparent;
   padding: 1rem;
   transition: 1s ease-in
-}
-
-button:hover {
-
 }
 
 
@@ -76,8 +83,9 @@ transition: 1s ease;
    top: 0%;
    left: 0%;
    width: 100%;
-   background-color: #B0C4B1;
+   background-color: #3C4445;
    z-index: 10000; /* sirve para sobreponer ante todo*/
+  
 
 }
 
