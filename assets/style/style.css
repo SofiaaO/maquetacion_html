@@ -13,7 +13,7 @@
   top: 0%;
   left: 0%;
   width: 100%;
-  background-color: #3C4445;
+  background-color: #3c4445e0;
   z-index: 10000; /* sirve para sobreponer ante todo*/
 }
 .header .navbar {
@@ -52,7 +52,7 @@ main section button{
 }
 
 body{
-  background:radial-gradient( #3C4445, #B0C4B1);
+  background: linear-gradient(145deg, #3C4445, #B0C4B1);
   color: #F7E1D7;
 }
 
@@ -70,7 +70,7 @@ body{
 }
 
 img{
-  border-radius: 20%;
+  border-radius: 15%;
   object-fit: cover;
   transition: transform 1s ease-in-out;
 }
@@ -84,6 +84,27 @@ img:hover {
   padding: 1rem 30px;
   align-items: center;
 }
+
+.images ul {
+  border-radius: 0%;
+display: grid;
+gap: 1rem;
+
+}
+.imagesdown{
+  display: grid;
+  justify-items: center;
+  padding: 1rem 30px;
+  align-items: center;
+}
+
+.imagesdown ul{
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  padding: 1rem 30px;
+  align-items: center;
+}
   
 h1 h2 h3 h4 {
   font-size: 24pt;
@@ -93,9 +114,17 @@ h1 h2 h3 h4 {
 main section h2{
   color: #D8AB8E;
 }
-
+ 
 .right {
-  text-align: right
+  text-align: right;
+  margin: 6rem;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+.left{
+  margin: 6rem;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
 }
 
 section {
